@@ -1,0 +1,163 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DESEncrypt - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/DESEncrypt.res" /d "NDEBUG" "F:\2012毕业设计\DES加密\DESEncrypt\DESEncrypt.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F6.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/DESEncrypt.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\2012毕业设计\DES加密\DESEncrypt\CDESEncrypt.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\Convert.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\DESEncrypt.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\DESEncryptDoc.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\DESEncryptView.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\DESFileEncrypt.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\DesStringEncrypt.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\FileEx.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\MainFrm.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\MyFileDialog.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\Window.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F6.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F7.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/DESEncrypt.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\2012毕业设计\DES加密\DESEncrypt\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F7.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F8.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/DESEncrypt.pdb" /machine:I386 /out:"Release/DESEncrypt.exe" 
+".\Release\CDESEncrypt.obj"
+".\Release\Convert.obj"
+".\Release\DESEncrypt.obj"
+".\Release\DESEncryptDoc.obj"
+".\Release\DESEncryptView.obj"
+".\Release\DESFileEncrypt.obj"
+".\Release\DesStringEncrypt.obj"
+".\Release\FileEx.obj"
+".\Release\MainFrm.obj"
+".\Release\MyFileDialog.obj"
+".\Release\StdAfx.obj"
+".\Release\Window.obj"
+".\Release\DESEncrypt.res"
+".\SkinPPWTL.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CDESEncrypt.cpp
+Convert.cpp
+DESEncrypt.cpp
+DESEncryptDoc.cpp
+DESEncryptView.cpp
+DESFileEncrypt.cpp
+DesStringEncrypt.cpp
+FileEx.cpp
+MainFrm.cpp
+MyFileDialog.cpp
+Window.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DESEncrypt.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: DESEncrypt - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/DESEncrypt.res" /d "_DEBUG" "F:\2012毕业设计\DES加密\DESEncrypt\DESEncrypt.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4FA.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/DESEncrypt.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\2012毕业设计\DES加密\DESEncrypt\CDESEncrypt.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\Convert.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\DESEncrypt.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\DESEncryptDoc.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\DESEncryptView.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\DESFileEncrypt.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\DesStringEncrypt.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\FileEx.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\MainFrm.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\MyFileDialog.cpp"
+"F:\2012毕业设计\DES加密\DESEncrypt\Window.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4FA.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4FB.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/DESEncrypt.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\2012毕业设计\DES加密\DESEncrypt\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4FB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4FC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/DESEncrypt.pdb" /debug /machine:I386 /out:"Debug/DESEncrypt.exe" /pdbtype:sept 
+".\Debug\CDESEncrypt.obj"
+".\Debug\Convert.obj"
+".\Debug\DESEncrypt.obj"
+".\Debug\DESEncryptDoc.obj"
+".\Debug\DESEncryptView.obj"
+".\Debug\DESFileEncrypt.obj"
+".\Debug\DesStringEncrypt.obj"
+".\Debug\FileEx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyFileDialog.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Window.obj"
+".\Debug\DESEncrypt.res"
+".\SkinPPWTL.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4FC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CDESEncrypt.cpp
+Convert.cpp
+DESEncrypt.cpp
+DESEncryptDoc.cpp
+DESEncryptView.cpp
+DESFileEncrypt.cpp
+DesStringEncrypt.cpp
+FileEx.cpp
+MainFrm.cpp
+MyFileDialog.cpp
+Window.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4FE.tmp" with contents
+[
+/nologo /o"Debug/DESEncrypt.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\CDESEncrypt.sbr"
+".\Debug\Convert.sbr"
+".\Debug\DESEncrypt.sbr"
+".\Debug\DESEncryptDoc.sbr"
+".\Debug\DESEncryptView.sbr"
+".\Debug\DESFileEncrypt.sbr"
+".\Debug\DesStringEncrypt.sbr"
+".\Debug\FileEx.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\MyFileDialog.sbr"
+".\Debug\Window.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4FE.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DESEncrypt.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
